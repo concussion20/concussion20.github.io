@@ -1,7 +1,129 @@
 <!DOCTYPE html>
 <html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./homepage.css">
+    <link rel="stylesheet" href="./commoncss/navbar.css">
+    <link rel="stylesheet" href="./commoncss/footer.css">
+    <link rel="stylesheet" href="./commoncss/hr.css">
+    <title>Chang Zhou - A curious Software Engineer</title>
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+<div class="navbar sticky">
+    <div class="home-icon">
+        <a href="#">Chang Zhou</a><span> - A curious Software Engineer</span>
+    </div>
+    <div class="navbar-gap"></div>
+    <div class="navbar-tabs">
+        <div class="navbar-tab"><a href="./project/project.html">PROJECT</a></div>
+        <div class="navbar-tab"><a href="./fun/funabutme.html">FUN FACT</a></div>
+        <div class="navbar-tab"><a href="./contact/contact.html">CONTACT</a></div>
+    </div>
+</div>
+<!-- <hr> -->
+<div class="container">
+    <div class="photo">
+        <img src="https://i.gifer.com/J3rf.gif" alt="Me looking at a kaleidoscope">
+    </div>
+    <div class="motto">
+        <span style="text-align: center;">"Shapes and colors the likes of which I've never seen."</span>
+    </div>
+    <div class="content">
+        <h2>About Me</h2>
+        <div>
+            <p>An evolving <span class="highlight">Software Engineer</span></p>
+            <p><span class="highlight">Amazon</span>, <span class="highlight">LiveRamp</span> and <span class="highlight">Huawei</span></p>
+            <p>Java, Python, C/C++, React, Angular</p>
+            <p>Big data, ML, Middlewares, Web, AWS & GCP</p> 
+        </div>
+        <br>
+        <h2>Experience</h2>
+        <div class="long-line">
+            <div style="width: 20%;"></div>
+            <div style="width: 60%;">
+                <h3 class="highlight2">Software Engineer Intern (Bigdata & ML)</h3>
+                <img src="https://logovtor.com/wp-content/uploads/2020/06/liveramp-logo-vector.png" alt="LiveRamp Logo" class="company-img">
+                <p><i>LiveRamp • Full-time</i></p>
+                <p><i>Sep 2020 – Jan 2021</i></p>
+                <p>Worked on Identity Data Graph Engineering:</p>
+                <ul> 
+                    <li>Explored ways to apply practical ML to Data Graph build process, designed with Data Scientist/Engineers.</li>
+                    <li>Developed against GCP Bigdata services. Including Apache Beam Dataflow, BigQuery, Storage, Airflow, etc..</li>
+                    <li>Embedded Classification & Clustering models into pipeline jobs and evaluated results at NMI (above 0.9).</li>
+                    <li>Constructed periodic Jenkins job to kick off Dataflow Pipeline.</li>
+                    <li>Co-developed Angular & Sprint Boot Web App to visualize subcomponents of Identity Graph.</li>
+                </ul>
+            </div>
+            <div style="width: 20%;"></div>
+        </div>
+        <div class="long-line">
+            <div style="width: 20%;"></div>
+            <div style="width: 60%;">
+                <h3 class="highlight2">Software Engineer Intern</h3>
+                <img src="https://img.packworld.com/files/base/pmmi/all/image/2019/03/pw_9679031_screen_shot_2019_03_13_at_9.26.35_am.png?auto=format&fit=max&w=1200"
+                alt="Amazon Lab126 icon" class="company-img">
+                <p><i>Amazon Lab126 • Full-time</i></p>
+                <p><i>May 2020 – Aug 2020</i></p>
+                <p>Developed on smarthome device:</p>
+                <ul> 
+                    <li>Developed Python Backend system for pre-setting, updating device and exposed Restful API to consume device information.</li>
+                    <li>Retrieved data from Amazon S3 and deploy functions on AWS Lambda.</li>
+                    <li>Implemented internal Python/shell tool to analyze source code and resolve dependencies recursively in 1s.</li>
+                    <li>Designed and implemented UI elements and business logics on Android smartome App.</li>
+                </ul>
+            </div>
+            <div style="width: 20%;"></div>
+        </div>
+        <div class="long-line">
+            <div style="width: 20%;"></div>
+            <div style="width: 60%;">
+                <h3 class="highlight2">Software Engineer</h3>
+                <img src="https://www.pngitem.com/pimgs/m/199-1996306_transparent-huawei-logo-png-png-download.png" 
+                alt="Huawei" class="company-img">
+                <p><i>Huawei • Full-time</i></p>
+                <p><i>Jul 2018 – Jun 2019</i></p>
+                <p>Developed a Big data software with Hadoop and Java.</p>
+                <ul> 
+                    <li>Constructed uniformed file system interfaces for Local and HDFS storage.</li>
+                    <li>Implemented 3 Java Clients to submit Spark tasks in Local, Standalone, and Yarn mode.</li>
+                    <li>Developed “remote driver” that distributed million-size HBase tasks to 10+ Yarn nodes and got results in 5 minutes.</li>
+                    <li>Developed 5 layered Docker images in 5 days, optimized Container launching time from 5min to 20s, and reduced the overall image size from 7GB to 2GB.</li>
+                    <li>Scheduled Docker cluster with Helm and Kubernetes.</li>
+                </ul>
+            </div>
+            <div style="width: 20%;"></div>
+        </div>
+        <br>
+        <h2>Education</h2>
+        <div class="long-line">
+            <div style="width: 20%;"></div>
+            <div style="width: 60%;">
+                <h3 class="highlight2">Northeastern University</h3>
+                <img src="https://i1.wp.com/brandcollegeconsulting.com/wp-content/uploads/2020/03/northeastern-logo.jpg?resize=685%2C247&ssl=1" 
+                alt="Northeastern University" class="company-img">
+                <p><i>Master of Science - MS, Computer Science (2019 Fall), Grade: 4.0</i></p>
+                <p><i>2019 – 2021</i></p>
+                <p>Course: Algorithm, Program Design Pattern, Foundation of AI, Machine Learning, Computer System, Building Scalable Distributed Systems, Web Development, Building Game Engines</p>
+            </div>
+            <div style="width: 20%;"></div>
+        </div>
+        <div class="long-line">
+            <div style="width: 20%;"></div>
+            <div style="width: 60%;">
+                <h3 class="highlight2">Nanjing University</h3>
+                <img src="https://apru.org/wp-content/uploads/2018/12/Nanjing-University.jpg" 
+                alt="Nanjing University" class="company-img">
+                <p><i>Bachelor's degree, Computer Software Engineering</i></p>
+                <p><i>2014 – 2018</i></p>
+                <p>Courses: Discrete mathematics, Data Structure and Algorithms, Java Coding, C++ Programming, Operating system, Database System, Computer Network, Linux Programming, Web Programming, Software Testing and Quality, Multi-core Based Parallel Programming, Andrioid App Dev, Computer Graphics, .NET Programming.</p>
+            </div>
+            <div style="width: 20%;"></div>
+        </div>
+    </div>
+</div>
+
+<div class="footer"> 
+
+</div>
 </body>
 </html>

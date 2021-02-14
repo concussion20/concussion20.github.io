@@ -1,0 +1,77 @@
+.container {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-areas: 
+      ". photo ."
+      ". motto ."
+      "content content content"
+    ;
+}
+
+.container > div {
+    margin: 10px;
+}
+
+.photo {
+    grid-area: photo;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+}
+
+.motto {
+    grid-area: motto;
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: center;
+    font-family:monospace; 
+    font-size: 25px;
+    /* color: rgb(102, 102, 102); */
+    color:rgb(12, 209, 203);
+}
+
+.content {
+    grid-area: content;
+    background-color: rgb(55, 55, 55);
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    font-family:monospace;
+    /* font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    /* font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    font-size: large;
+    color: white;
+}
+
+.content div {
+    text-align: center;
+}
+
+.content h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.long-line {
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: center;
+}
+
+.highlight {
+    font-size: x-large;
+}
+
+.highlight2 {
+    color:sandybrown;
+    /* font-size: x-large; */
+}
+
+.company-img {
+    width: 140px;
+}
