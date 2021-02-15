@@ -30,7 +30,6 @@
     justify-content: center;
     font-family:monospace; 
     font-size: 25px;
-    /* color: rgb(102, 102, 102); */
     color:rgb(12, 209, 203);
 }
 
@@ -69,9 +68,12 @@
 
 .highlight2 {
     color:sandybrown;
-    /* font-size: x-large; */
 }
 
 .company-img {
     width: 140px;
+}
+
+.company-name, .degree {
+    color: rgb(240, 184, 184);
 }

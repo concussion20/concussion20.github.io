@@ -6,6 +6,7 @@ body {
     background-color: black;  
     display: flex;
     flex-direction: row; 
+    z-index: 5;
 }
 
 .sticky {
@@ -39,10 +40,6 @@ body {
     color: white;
     text-decoration: none;
 }
-
-/* .navbar-gap {
-    width: 30%;
-} */
 
 .navbar-tabs {
     width: 40%;

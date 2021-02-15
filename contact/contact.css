@@ -1,0 +1,56 @@
+.container {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-areas: 
+      ". image ."
+      ". sometext ."
+    ;
+}
+
+.container > div {
+    margin: 10px;
+}
+
+.image {
+    grid-area: image;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: center;
+}
+
+.sometext {
+    grid-area: sometext;
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: center;
+    font-family:monospace; 
+    font-size: 30px;
+    color:rgb(12, 209, 203);
+    transition: 0.3s;
+}
+
+.sometext:hover {
+    color:rgb(13, 194, 188);
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: center;
+    color: white;
+}
+
+.content img {
+    width: 80px;
+    margin: 15px;
+}
+
+.content h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(55, 55, 55);
+}
