@@ -22,10 +22,6 @@
     justify-content: center;
 }
 
-.image img {
-    width: 600px;
-}
-
 .sometext {
     grid-area: sometext;
     display: flex;

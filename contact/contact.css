@@ -50,7 +50,12 @@
     margin: 15px;
 }
 
-.content h2 {
+.left {
+    width: 18%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: rgb(55, 55, 55);
+}
+
+.right {
+    width: 50%;
 }

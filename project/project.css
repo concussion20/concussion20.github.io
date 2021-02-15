@@ -3,7 +3,7 @@
     grid-template-rows: auto 1fr auto;
     grid-template-columns: 1fr 2fr 1fr;
     grid-template-areas: 
-      ". image ."
+      "image image image"
       ". sometext ."
       "content content content"
     ;
@@ -20,11 +20,12 @@
     flex-direction: row;
     align-items: center; 
     justify-content: space-evenly;
+    width: 100%;
 }
 
 .image img{
     margin: 21px;
-    height: 230px;
+    width: 25%;
 }
 
 .sometext {
@@ -64,6 +65,7 @@
 
 .highlight {
     color:sandybrown;
+    text-align: center;
 }
 
 .repo {
