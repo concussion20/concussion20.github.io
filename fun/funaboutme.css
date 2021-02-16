@@ -33,6 +33,11 @@
     color:rgb(12, 209, 203);
 }
 
+@media only screen and (max-width: 576px) {
+    .sometext {
+        font-size: medium;
+    }
+}
 
 .content {
     grid-area: content;
@@ -72,4 +77,10 @@
     font-family:cursive;
     font-size: 28px;
     color: rgb(201, 240, 144);
+}
+
+@media only screen and (max-width: 576px) {
+    .content div p {
+        font-size: small;
+    }
 }

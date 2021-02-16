@@ -33,6 +33,12 @@
     transition: 0.3s;
 }
 
+@media only screen and (max-width: 576px) {
+    .sometext {
+        font-size: medium;
+    }
+}
+
 .sometext:hover {
     color:rgb(13, 194, 188);
 }
@@ -50,10 +56,33 @@
     margin: 15px;
 }
 
+#KGe {
+    width: 90px;
+}
+
+@media only screen and (max-width: 576px) {
+    .content img {
+        width: 40px;
+        margin: 15px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    #KGe {
+        width: 45px;
+    }
+}
+
 .left {
     width: 18%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: rgb(55, 55, 55);
+}
+
+@media only screen and (max-width: 576px) {
+    .left {
+        font-size: medium;
+    }
 }
 
 .right {

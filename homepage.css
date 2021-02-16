@@ -33,6 +33,12 @@
     color:rgb(12, 209, 203);
 }
 
+@media only screen and (max-width: 576px) {
+    .motto {
+        font-size: medium;
+    }
+}
+
 .content {
     grid-area: content;
     background-color: rgb(55, 55, 55);
@@ -45,6 +51,12 @@
     /* font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
     font-size: large;
     color: white;
+}
+
+@media only screen and (max-width: 576px) {
+    .content {
+        font-size: small;
+    }
 }
 
 .content div {
@@ -64,6 +76,12 @@
 
 .highlight {
     font-size: x-large;
+}
+
+@media only screen and (max-width: 576px) {
+    .highlight {
+        font-size: medium;
+    }
 }
 
 .highlight2 {
