@@ -87,6 +87,18 @@
     text-align: center;
 }
 
+.link {
+    font-size: large;
+    color: rgb(126, 219, 223);
+    text-decoration: none;
+}
+
+.link:-webkit-any-link {
+    font-size: large;
+    color: rgb(126, 219, 223);
+    text-decoration: none;
+}
+
 .repo {
     width: 30px;
     height: 30px;
