@@ -1,0 +1,92 @@
+.container {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-areas: 
+      "image image image"
+      ". sometext ."
+      "content content content"
+    ;
+}
+
+.container > div {
+    margin: 10px;
+}
+
+.image {
+    grid-area: image;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: center;
+}
+
+.image img{
+    margin: 21px;
+    width: 25%;
+}
+
+.sometext {
+    grid-area: sometext;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    font-family:monospace; 
+    font-size: 25px;
+    color:rgb(12, 209, 203);
+}
+
+@media only screen and (max-width: 576px) {
+    .sometext {
+        font-size: medium;
+    }
+}
+
+.content {
+    grid-area: content;
+    background-color: rgb(55, 55, 55);
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    font-family:monospace;
+    font-size: large;
+    color: white;
+}
+
+@media only screen and (max-width: 576px) {
+    .content {
+        font-size: small;
+    }
+}
+
+.content div {
+    text-align: center;
+}
+
+.content h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.highlight2 {
+    color:sandybrown;
+}
+
+.architecture img{
+    margin: 10px;
+    width: 700px;
+}
+
+.link {
+    font-size: large;
+    color: rgb(126, 219, 223);
+    text-decoration: none;
+}
+
+.link:-webkit-any-link {
+    font-size: large;
+    color: rgb(126, 219, 223);
+    text-decoration: none;
+}
