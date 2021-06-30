@@ -90,3 +90,14 @@
     color: rgb(126, 219, 223);
     text-decoration: none;
 }
+
+.repo {
+    width: 30px;
+    height: 30px;
+}
+
+.repo-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+}
